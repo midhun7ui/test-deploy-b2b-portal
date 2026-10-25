@@ -1,0 +1,48 @@
+
+export const initialNotifications = [
+  {
+    id: "NTF-001",
+    type: "order",
+    title: "Order accepted",
+    message: "Your order ORD-1028 has been accepted.",
+    createdAt: "15 minutes ago",
+    read: false,
+    link: "/orders",
+  },
+  {
+    id: "NTF-002",
+    type: "trip",
+    title: "Trip is now ongoing",
+    message: "Trip TRP-2041 is currently in progress.",
+    createdAt: "42 minutes ago",
+    read: false,
+    link: "/trips",
+  },
+  {
+    id: "NTF-003",
+    type: "order",
+    title: "Order submitted",
+    message: "Your order ORD-1027 has been submitted.",
+    createdAt: "2 hours ago",
+    read: false,
+    link: "/orders",
+  },
+  {
+    id: "NTF-004",
+    type: "statement",
+    title: "Statement published",
+    message: "Your September 2026 statement is available.",
+    createdAt: "Yesterday",
+    read: true,
+    link: "/invoices/STMT-2026-09",
+  },
+  {
+    id: "NTF-005",
+    type: "trip",
+    title: "Trip completed",
+    message: "Trip TRP-2039 has been completed.",
+    createdAt: "Yesterday",
+    read: true,
+    link: "/trip-reports",
+  },
+];
